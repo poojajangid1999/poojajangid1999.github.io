@@ -1,0 +1,159 @@
+.case{
+	padding-top: 65px;
+    padding-bottom: 80px;
+	overflow:hidden;
+
+	.left-box{
+		padding: 0 4px;
+		position:relative;
+		background-color:#fefefe;
+		.image-gallery{
+			img{
+				width: 100%;
+				height: 350px;
+				object-fit: cover;
+			}
+		}
+		.content-box{
+			display: flex;
+			justify-content: space-around;
+			font-size: 13px;
+			position: absolute;
+			transition: all 1s;
+			border-radius: 10px;
+			background-color: #fbfbfb;
+			padding: 12px;
+			bottom: -35px;
+			box-sizing: border-box;
+			box-shadow: 9px 5px 23px 0px #e3e2e2;
+			left: 36px;
+			right: 36px;
+			line-height:31px;
+			.information{
+				h5{
+					margin: 0;
+				}
+				p{
+					margin: 0;
+					font-size: 12px;
+					font-weight: 500;
+					color: #908b8b;;
+				}
+			}
+			.right-box{
+				margin: 13px 10px;
+				background-color: $primary;
+				padding: 3px 10px;
+				border-radius: 26px;
+				i{
+					font-size: 17px;
+					color:$white;
+					padding: 10px 5px;
+				}
+			}
+			&:hover{
+			background-color: $primary;
+			color:$white;
+			cursor:pointer;
+				p{
+					color:$white;
+				}
+				.right-box{
+					background-color:#1a1a1a;
+					i{
+						color:$white;
+					}
+				}
+			}
+		}
+	}
+}
+//responsive
+@media only screen and (max-width:1024px){
+	.case{
+		.left-box{
+			padding-left: 21px;
+			.content-box{
+				line-height: 25px;
+				left: 46px;
+				right: 37px;
+				.information{
+					h5{
+						font-size: 17px;
+					}
+					p{}
+				}
+				.right-box{
+					margin: 8px 10px;
+					background-color: #f94d1d;
+					padding: 0px 7px;
+					border-radius: 44px;
+					i{
+					    font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width:768px){
+	.case{
+		.col-4{
+			width:50%;
+			.image-gallery{
+				img{
+					width:95%;
+				}
+			}
+		}
+		.wrape{
+			width:100%;
+			margin-top: 70px;
+			.left-box{
+				.image-gallery{
+					img{
+						width:95%;
+					}
+				}
+				.content-box{
+					left: 194px;
+					right: 194px;
+				}
+			}
+		}	
+	}
+}
+@media only screen and (max-width:591px){
+	.case{
+	padding-top: 65px;
+	padding-bottom: 65px;
+		.col-4{
+			width:100%;
+			padding-bottom: 70px;
+			.image-gallery{
+				img{
+					width:95%;
+				}
+			}
+		}
+		.wrape{
+			width:100%;
+			margin-top: 0px;
+			.left-box{
+				
+				position:relative;
+				background-color:#fefefe;
+				.image-gallery{
+					img{
+						width:95%;
+					}
+				}
+				.content-box{
+					left: 37px;
+					right: 37px;
+				}
+			}
+		}
+	}
+
+}

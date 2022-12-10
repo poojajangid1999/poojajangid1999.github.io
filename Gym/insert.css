@@ -1,0 +1,225 @@
+/* default setting hear */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navigation bar css Here */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.67;
+}
+/* navbar logo img */
+#logo{
+    margin: 0px 20px;  
+    
+}
+#logo img{
+    height: 60px;
+    margin: 3px;
+    
+}
+/* navigation listing */
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+  
+}
+#navbar ul li a{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(253, 243, 243);
+    font-size: 20px;
+    padding: 7px;
+}
+#navbar ul li a:hover{
+    /* color: black;
+    background-color: white;
+    border-radius: 20px; */
+    border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+/* Home  */
+#home{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start ;
+    flex-direction: column;
+    height: 20px;
+    padding: 100px 52px;
+    font-family: 'Gluten', cursive;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('Background.jpg') no-repeat center center/cover;
+    height: 600px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+
+}
+#home h1{
+    font-size: 45px;
+    margin: 6px;
+    color: white;
+    /* background-color: black; */
+    /* border: 1px solid white; */
+    /* border-radius: 3px; */
+} 
+#home p{
+    margin: 9px;
+    color: black;
+    /* background-color: white; */
+    /* border: 1px solid black;
+    border-radius: 3px; */
+}
+#home button{
+    margin: 20px 8px;
+    padding: 6px;
+}
+.btn{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 22px;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+/* after home text */
+ #afterhead{
+     display: flex;
+    padding-top: 340px;
+    font-family: 'Gluten', cursive;
+    /* justify-content: space-between; */
+ }
+ .rside{
+    padding-left: 130px;
+    padding-top: 30px;
+    
+ }
+ .lside{
+    padding-top: 30px;
+    padding-left: 172px;
+ }
+ /* trainers sections */
+ #trainers{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Gluten', cursive;
+ }
+ .box{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 25px;
+    margin: 50px 70px;
+    border-radius: 10px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+ }
+ #trainers img{
+     height: 294px;
+ }
+ #trainers p{
+     display: flex;
+     align-items: center;
+     color: blanchedalmond;
+ }
+ /* facility */
+ #facility{
+    font-family: 'ABeeZee', sans-serif;
+     display: flex;
+     flex-direction: column;
+     margin:10px 105px 5px 105px;
+     background-color: rgb(0, 0, 0);
+
+}
+ .leftfacility{
+     display: flex;
+     margin: 30px;
+     border: 2px solid rgb(255, 255, 255);
+     padding: 15px;
+     color: white;
+     /* margin-top: 30px; */
+      }
+ .leftfacility h1{
+    margin-right: 150px;
+ }
+ .leftfacility p{
+    margin-left: 130px;
+ }
+ .rightfacility{
+     display: flex;
+    margin: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 40px;
+ }
+ .rightfacility h1{
+     margin-left: 130px;
+ }
+ .rightfacility p{
+    margin-right: 150px;
+ }
+.rightfacility:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);;
+ }
+ .leftfacility:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+ }
+
+
+.ft{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top:5px;
+    padding:8px;
+    font-size: 17px;
+} 
+ /* Special css  */
+ .h-primary{
+    font-size: 25px;
+}
+ .h-secondary{
+     font-size: 28px;
+     color: white;
+     padding: 15px;
+ }
+ .h-third{
+font-size: 30px;
+ }
+ .center{
+     justify-content: center;
+     align-items: center;
+ }

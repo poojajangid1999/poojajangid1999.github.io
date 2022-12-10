@@ -1,0 +1,161 @@
+//team
+.our-team{
+	padding-top: 40px;
+    padding-bottom: 40px;
+	.team{
+		margin: auto;
+		padding: 10px 0;
+		.team-heading{
+			text-align: center;
+			.f-heading{
+				line-height: 25px;
+				h5{
+					a{
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+	//team-member
+	.team-members{
+		.team-image{
+			position: relative;
+			overflow: hidden;
+			img{
+				width: 100%;
+				height: 312px;
+				object-fit: cover;
+			}
+			.social-icon{
+				transition: all 0.5s;	
+				position: absolute;
+				top: 0;
+				right: -45px;
+				.media{
+					.m-icon{
+						li{
+						display:block;
+						padding: 8px 5px;
+							a{	
+								color: black;
+								padding: 6px 12px;
+								background-color: white;
+								i{
+									font-size: 15px;
+								}
+							}	
+						}
+						.twit{
+							a{
+								padding:6px 11px;
+								}
+						}
+						.f{
+							a{
+								padding:6px 14px;
+							}
+						}
+						//hover effect
+						&:hover{
+							cursor:pointer;
+							a{
+								background-color:$primary;
+								color:white;
+							}	
+						}
+					}
+				}
+			}
+			.about-team{
+				transition: all 0.5s;	
+				position: absolute;
+				border-radius: 2px;
+				background-color: #fbfbfb;
+				padding: 20px;
+				bottom: -78px;
+				box-sizing: border-box;
+				box-shadow: 9px 5px 23px 0px #e3e2e2;
+				left: 17px;
+				right: 17px;
+				line-height: 22px;
+				border-left: 3px solid transparent;
+				.team-member{
+					.name{
+						h5{
+							margin:0;
+							font-size: 15px;
+						}
+						p{
+							margin:0;
+							font-size: 12px;
+							font-weight: 500;
+							color: grey;
+						}
+					}
+				}
+			}
+			&:hover{
+				.team-image{
+					overflow: visible;
+				}
+				.social-icon{
+					right: 10px;
+				}
+				.about-team{
+					bottom:-18px;
+					border-color:$primary;
+				}
+			}	
+		}
+	}
+}
+//responsive
+@media only screen and (max-width:768px){
+	//our-team
+	.our-team{
+		.team-members{
+			.team-image{
+				padding-bottom: 10px;
+				img{
+					height: 416px;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width:591px){
+	//our-team
+	.our-team{
+		padding-top: 40px;
+		padding-bottom: 40px;
+		.team{
+			margin: auto;
+			padding: 10px 0;
+			.team-heading{
+				text-align: center;
+				.f-heading{
+					line-height: 39px;
+					h5{
+						margin: 0;
+					}
+					h2{
+						font-size: 29px;
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+	//team-member
+	.team-members{
+		.team-image{
+			padding-top: 20px;
+			img{
+				width: 100%;
+				height: 312px;
+				object-fit: cover;
+			}
+		}
+	}
+}

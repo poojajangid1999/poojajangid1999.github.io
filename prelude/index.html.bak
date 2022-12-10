@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"  href="fontawesome\css\all.min.css">
+	<link rel="stylesheet"  href="css/style.css">
+	<title>First project</title>
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+		
+	<!-- Header -->
+	<header>
+		<div class="container">			
+			<div class="navbar">
+				<d
+				iv class="logo">
+					<img src="images/logo.png" alt=" images">
+				</div>
+				<ul class="menu">
+					<li class="menu"><a href="Home">Home</a></li>
+					<li class="menu"><a href="Home">About</a></li>
+					<li class="menu"><a href="Home">Services</a></li>
+					<li class="menu"><a href="Home">Pricing</a></li>
+					<li class="menu"><a href="Home">Products</a></li>
+					<li class="menu"><a href="Home">Resources</a></li>
+				</ul>
+				<div class="search-icon">
+					<div class="header-icon">
+						<i class="fas fa-cart-plus"></i>
+						<i class="fas fa-search"></i>
+					</div>
+					<a href="#" class="button">Contact Us</a>
+				</div>					
+			</div>
+		</div>	
+	</header>
+	
+		
+	<!-- Banner -->
+	<div class="banner" style="background-image:url('images/img1.jpg');background-size:cover;background-repeat: no-repeat;">
+		<div class="box-content">
+			<h1> Engage.  Succeed.  Share</h1>
+			<p>We bring the power of ownership to your orization by </p>
+			<p>aligining leadership ,strategy and culture</p>		
+			<a href="#" class="btn ">Learn More</a>
+		</div>
+		<div class="banner-icon">
+			<i class="fas fa-arrow-down"></i>
+		</div>
+	</div>
+		
+	<!-- About US -->
+		<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<div class="about">	
+						<div class="about-1">
+							<h3>Leadership & change</h3>
+							<p>Effective leadership is essential to success of any orization. </p>
+							<span class="leadership-icon">
+								<i class="fas fa-arrow-right"></i>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="about">
+							<i class="far fa-circle"></i>
+						<h3>Strategy & Transformation</h3>
+						<p>Effective leadership is essential to success of any orization. </p>
+						
+						<span class="leadership-icon">
+							<i class="fas fa-arrow-right"></i>
+						</span>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="about">
+							<i class="far fa-circle"></i>
+						<h3>Operations & Efficiency</h3>
+						<p>Effective leadership is essential to success of any orization. </p>
+						
+						<span class="leadership-icon">
+							<i class="fas fa-arrow-right"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+		
+		<!--Business-content-->
+		<section class="space">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<div class="business-content">
+						<h2>Helpings your orizations achives what matters  most</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare, nibh et eleifend elementum, arcu nisl varius elit, nec auctor arcu leo lobortis tellus. Sed quis scelerisque lectus. Vestibulum feugiat turpis tellus, quis eleifend nibh tincidunt id. Nullam ullamcorper tristique dapibus. </p>
+						<a href="#" class="button">About Us</a>
+					</div>	
+				</div>
+				<div class="col-6">
+					<div class="business-content">
+						<img src="images/img3.jpg" alt="not loaded">
+					</div>
+				</div>	
+			</div>					
+		</div>	
+		</section>
+		
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-4">
+						<div class="business-icon">
+							<i class="fas fa-chart-line"></i>
+							<div>
+							<h4>Business Analysis</h4>
+							<p>We create a master plan,We track all parts of our project.Including risks.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="business-icon">
+							<i class="fas fa-chart-line"></i>
+							<div>
+							<h4>Project Managements</h4>
+							<p>We create a master plan,We track all parts of our project.Including risks.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="business-icon">
+							<i class="fas fa-chart-line"></i>
+							<div>
+							<h4>Banking Market</h4>
+							<p>We create a master plan,We track all parts of our project.Including risks.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!--Transform-business-->
+		<section class="management">
+			<div class="container">
+			<div class="row" >
+				<div class="col-6">
+					<div class="transform-business">
+						<img src="images/img2.jpg" alt="notloaded">
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="transform-business">
+						<h4>We help transform business</h4>
+						<p>Strategy</p>
+								<div class="progress">
+									<div class="progress-bar" style="width:73%;">
+										<span>70%</span>
+									</div>
+								</div>
+						<p>Managements</p>
+								<div class="progress">
+									<div class="progress-bar" style="width:90%;">
+										<span>90%</span>
+									</div>
+								</div>
+						<p>Managements</p>
+								<div class="progress">
+									<div class="progress-bar" style="width:85%;">
+										<span>80%</span>
+									</div>
+								</div>
+						<p>Coaching</p>
+								<div class="progress">
+									<div class="progress-bar" style="width:70%;">
+										<span>60%</span>
+									</div>
+								</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+		
+		<!--developing-process-->
+		<section>
+			<div class="developing-process">
+				<div class="financial-process">
+					<div class="developing-content">
+						<h2 >Developing financial processes</h2>
+							<p>We will help increase your bottom line with SEO campagin that is specially designed for your unique business</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-4">
+						<div class="developing-icon">
+							<div class="circle">
+								01
+							</div>
+							<h4>Prepare a Budget</h4>
+							<p>Direct and allocate financial resources to meet your strategic goals</p>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="developing-icon">
+							<div class="circle">
+								02
+							</div>
+							<h4>Align your strategy</h4>
+							<p>Direct and allocate financial resources to meet your strategic goals.</p>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="developing-icon">
+							<div class="circle">
+								03
+							</div>
+							<h4>Setup a stock control</h4>
+							<p>Direct and allocate financial resources to meet your strategic goals</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<!--Image-gallery-->
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<div class="services-box">
+							<div class="image-gallery">
+								<img src="images/img3.jpg" alt="not found" >
+							</div>
+							<div class="content-box">
+								<h5>Setup a stock control</h5>
+								<i class="fas fa-arrow-right"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="services-box">
+							<div class="image-gallery">
+								<img src="images/img3.jpg" alt="not found" >
+							</div>
+							<div class="content-box">
+								<h5>Setup a stock control</h5>
+								<i class="fas fa-arrow-right"></i>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div id="services-button">
+					<a href="#" class="button">View all</a>
+				</div>	
+			</div>
+		</section>
+		<section class="business-grows">
+			<div class="container">
+				<div class="row" >
+					<div class="col-6">
+						<div class="business-growth">
+							<h2>Graduate to batter option as your business grows</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare, nibh et eleifend elementum, arcu nisl varius elit,Vestibulum feugiat turpis tellus, quis eleifend nibh tincidunt id. Nullam ullamcorper tristique dapibus. <br><br>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare, nibh et eleifend elementum, arcu nisl varius elit, .</p>
+							<a href="#" class="button">Get started</a>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="row align-items">
+							<div class="col-6">
+							
+								<div class="growth-content">
+										<i class="fas fa-laptop-house"></i>
+									<h3>Accounting</h3>
+									<p>Lorem ipsum dolor sit amet dolor,consectetur adipiscing elit Lorem ipsum dolor sit .</p>
+									<span class="lamp">
+										<i class="fas fa-arrow-right"></i>
+									</span>
+								</div>
+							</div>
+							
+							
+							<div class="col-6">
+								<div class="growth-content">
+										<i class="fas fa-tasks"></i>
+									<h3>Management</h3>
+										<p>Lorem ipsum dolor sit amet dolor,consectetur adipiscing elit Lorem ipsum dolor sit </p>
+										<span class="lamp">
+										<i class="fas fa-arrow-right"></i>
+									</span>	
+								</div>
+								<div class="growth-content">
+									<div class="consult">
+										<i class="fas fa-tasks"></i>
+										<h3>Consulting</h3>
+											<p>Lorem ipsum dolor sit amet dolor,consectetur adipiscing elit Lorem ipsum dolor sit </p>
+										<span class="lamp">
+											<i class="fas fa-arrow-right"></i>
+										</span>	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+		<section class="Projects">
+			<div class="container">
+				<div class="row">
+					<div class="col-3">
+						<div class="project">
+							<h2>120+</h2>
+							<p>Complete Projects</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="project">
+							<h2>1.2K</h2>
+							<p>Happy Cilents</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="project">
+							<h2>99%</h2>
+							<p>Reports faster</p>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="project">
+							<h2>100+</h2>
+							<p>Worldwide Office</p>
+						</div>
+					</div>
+				</div>
+				<div class="h-row">
+					<hr>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+			<div class="row">
+					<div class="customer">
+						<h3>See what our customers are saying</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<div class="about-customers">
+							<div class="customer-content">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor sit amet Lorem ipsum dolor sit amet elit Lorem ipsum elit Lorem ipsum dolor sit amet, consectetur elit  </p>
+								<div class="customer-name">
+									<div class="cutomer-image">
+										<img src="images/img2.jpg" alt="loaded">
+									</div>
+									<div class="Name"> 
+										<p>VENCENT SMITH</p>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+							</div>
+								
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="about-customers">
+							<div class="customer-content">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor sit amet Lorem ipsum dolor sit amet elit Lorem ipsum elit Lorem ipsum dolor sit amet, consectetur elit  </p>
+								<div class="customer-name">
+									<div class="cutomer-image">
+										<img src="images/img2.jpg" alt="loaded">
+									</div>
+									<div class="Name"> 
+										<p>THOMAS SMITH</p>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>	
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="about-customers">
+							<div class="customer-content">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor sit amet Lorem ipsum dolor sit amet elit Lorem ipsum elit Lorem ipsum dolor sit amet, consectetur elit </p>
+								<div class="customer-name">
+									<div class="cutomer-image">
+										<img src="images/img2.jpg" alt="loaded">
+									</div>
+									<div class="Name"> 
+										<p>ERNEST SMITH</p>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>	
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section>
+			<div class="container">
+				<div class="row company-logo">
+					<div class="col-3">
+						<div class="bottom-images">
+							<div class="images">
+								<img src="images/image1.png" alt="loded..">
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="bottom-images">
+							<div class="images">
+								
+									<img src="images/image4.png" alt="loded..">
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="bottom-images">
+							<div class="images">
+								<img src="images/image2.png" alt="loded..">
+							</div>
+						</div>
+					</div>
+					<div class="col-3">
+						<div class="bottom-images">
+							<div class="images">
+								
+									<img src="images/image3.png" alt="loded..">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="background-banner" style="background-image:url('images/img1.jpg');background-size: cover;background-repeat: no-repeat;">
+				<div class="container">
+						<div class="background-content">
+							<p>LET'S GET STARTED YOUR PROJECT WITH PROFESSIONAL WAY </p>
+							
+							<h2><strong>Get in touch and</strong> let us know <p>how we can help</p></h2>
+						
+							<div class="new-btn">
+								<a href="#" class="button">Get started</a>
+							</div>
+						</div>
+				</div>
+		</section>
+		
+		<section class="margin">
+			<div class="container">
+				<div class="row">
+			
+						<div class="col-3">
+							<div class="prelude">
+								<img src="images/logo.png" alt="images">
+							</div>
+								<p style="font-size:11px;line-height:17px;">We bring the power of ownership to your orization by aligining strategy and culture.</p>
+								<ul class="social-icon">
+									<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							
+						</div>
+						<div class="col-2">
+							<h5 class="title">About</h5>
+								<ul class="vertical-navbar ">
+									<li class="vertical-nav"><a href="#">Services</a></li>
+									<li class="vertical-nav"><a href="#">Portfolio</a></li>
+									<li class="vertical-nav"><a href="#">About</a></li>
+									<li class="vertical-nav"><a href="#">Blog</a></li>						
+								</ul>
+						</div>
+						<div class="col-2">
+							<h5 class="title">Products</h5>
+								<ul class="vertical-navbar">
+									<li class="vertical-nav"><a href="#">Platforms</a></li>
+									<li class="vertical-nav"><a href="#">Customers</a></li>
+									<li class="vertical-nav"><a href="#">Products</a></li>
+									<li class="vertical-nav"><a href="#">Pricing</a></li>
+						
+								</ul>
+						</div>
+						<div class="col-2">
+							<h5 class="title">Resources</h5>
+								<ul class="vertical-navbar">
+									<li class="vertical-nav"><a href="#">Traning</a></li>
+									<li class="vertical-nav"><a href="#">Marketplace</a></li>
+									<li class="vertical-nav"><a href="#">Experts</a></li>
+									<li class="vertical-nav"><a href="#">Guides</a></li>
+						
+								</ul>
+						</div>
+						<div class="col-3">
+							<h5 class="title">Offices</h5>
+								<ul class="vertical-navbar">
+									<p>New York,112 W 34th st.</p>
+									<p>Manhattan USA.</p>
+									<p style="color: #15b1f1;font-weight:bold;">(1) 212-946-2707</p>
+								</ul>
+						</div>
+					
+				</div>
+				<div class="footer-hr">
+					<hr>
+				</div>
+				<footer>
+				<div class="footer">
+						<p>2019 Prelude by viworx-Co. All Rights Reserved</p>
+						<div>
+							<ul class="terms">
+								<li><a  href="#" class="f-term">Terms of use</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+				</div>
+				</footer>
+		</section>
+			
+		
+	<!--<script>
+		document.getElementById("demo").innerHTML = "My First JavaScript";
+	</script>-->
+	
+</body>
+</html>

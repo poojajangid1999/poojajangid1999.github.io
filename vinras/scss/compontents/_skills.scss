@@ -1,0 +1,249 @@
+//skills
+.skills{
+	padding-top: 100px;
+    padding-bottom: 80px;
+	.bg-color{
+		background-color:rgba(250,250,250,1);
+		//left-side-box
+		.company-skill{
+			padding: 12px 0px 0px 63px;
+			.w-skill{
+				line-height: 40px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				h5{
+					padding: 11px 0px;
+					margin:0;
+					font-size: 23px;
+					a{
+						color:$primary;
+					}
+				}
+				h2{
+					padding: 11px 0px;
+					margin:0;
+					font-size: 40px;
+				}
+			}
+			//progress-bars
+			.progress-skills{
+				padding-top: 10px;
+				padding-bottom: 10px;
+				p{
+					font-size: 14px;
+					font-weight: 700;
+					margin: 0;
+					padding: 5px 0;
+				}
+				.progress{
+					height: 9px;
+					width: 74%;
+					background-color:white;
+					border-radius:10px;
+					margin-bottom: 17px;
+					
+					.progress-bar{
+						width: 100%;
+						border-radius:10px;
+						background-color:$primary;
+						height:100%;
+						position: relative;
+						 span{
+							position: absolute;
+							right:0;
+							top: -20px;
+							font-weight: 700;
+							font-size: 13px;
+						}
+					}
+				}
+			}
+		}
+		//right-side-box
+		.right-box{
+			img{
+				width: 100%;
+				margin-top: -100px;
+				height: 480px;
+				object-fit: cover;
+			}
+		}
+		.work-info{
+			display: flex;
+			align-items: center;
+			.icon{
+				margin: 19px 15px;
+				padding: 20px 29px;
+				background-color: $primary;
+				i{
+					font-size: 40px;
+					color: $white;
+					padding: 10px 10px;
+				}
+			}
+			.all-case{
+				padding: 28px 7px;
+				line-height: 23px;
+				span{
+					font-size: 30px;
+					font-weight: 700;
+				}
+				p{
+					margin: 0;
+					font-size: 13px;
+					font-weight: 600;
+				}
+			}
+		}
+	}
+	.space{
+		padding: 40px 48px;
+	}
+}
+//responsive
+@media only screen and (max-width:1024px){
+	//.skill
+	.skills{
+		.bg-color{
+			//left-side-box
+			.company-skill{
+				padding: 22px 0px 0px 63px;
+				.w-skill{
+					line-height: 33px;
+					h2{
+						font-size: 36px;
+					}
+					h5{
+						padding: 5px 0px;
+						font-size: 21px;
+					}
+				}
+			}
+			//right-side-box
+			.right-box{
+				img{
+					margin-top: -80px;
+					height: 425px;
+				}
+			}
+			.space{
+				.work-info{
+					.icon{
+						margin: 0px 15px;
+						padding: 20px 21px;
+						i{
+							padding: 3px 3px;
+						}
+					}
+					.all-case{
+						padding: 28px 3px;
+						line-height: 26px;
+						span{}
+						p{
+							font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width:768px){
+	//skills
+	.skills{
+		.bg-color{
+			//left-side-box
+			.company-skill{
+				.progress-skills{
+					.progress{
+						height: 10px;
+						width: 56%;
+						margin-bottom: 25px;
+					}
+				}
+			}
+			//right-side-box
+			.right-box{
+				padding-top: 77px;
+				img{
+				}
+			}
+			.space{
+				padding: 40px 26px;
+				.work-info{
+					.icon{
+						margin: 0px 10px;
+						padding: 16px 16px;
+					}
+					.all-case{
+						padding: 10px 3px;
+						p{
+							font-size: 11px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width:591px){
+	//skills
+	.skills{
+		.bg-color{
+			//left-side-box
+			.company-skill{
+				padding: 22px 0px 0px 30px;
+				.w-skill{
+					line-height: 28px;
+					h2{
+						font-size: 28px;
+					}
+					h5{
+						font-size: 21px;
+					}
+				}
+				//progress-bar
+				.progress-skills{
+					.progress{
+						width: 88%;
+					}
+				}
+			}
+			//right-side-box
+			.right-box{
+				padding-top: 77px;
+				img{
+					display:none;
+				}
+			}
+			.space{
+				padding: 40px 26px;
+				.col-4{
+					width:100%;
+					.work-info{
+						
+						padding-bottom: 10px;
+						.icon{
+							padding: 14px 20px;
+
+						}
+						.all-case{
+							padding: 5px 25px;
+							p{
+								font-size: 11px;
+							}
+						}
+					}
+					.wrape{
+						.icon{
+							i{
+								padding: 3px 5px;
+							}
+						}
+					}
+				}
+				
+			}
+		}
+	}
+}

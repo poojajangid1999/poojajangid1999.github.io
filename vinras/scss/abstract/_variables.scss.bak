@@ -1,0 +1,17 @@
+//color define
+$primary:#f94d1d;	//orange color
+$secondary:#cbcbcb;	// grey color
+$white:#ffffff;		// white color
+
+// Body
+$body-bg   : #ffffff;
+$body-color: #555;
+
+// Typography
+$barlow: 'Barlow', sans-serif;
+$font-family-base : 'Roboto', sans-serif;;
+$font-family-title : 'jost', sans-serif;
+$headings-font-weight   : 800;
+// $headings-font-family:        $fm;
+$font-size-base         : 1rem !default;
+$font-weight-base       : 400 !default;

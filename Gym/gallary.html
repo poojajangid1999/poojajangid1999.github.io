@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="insert.css">
+  <style>
+    * {
+      margin: 2px;
+      padding: 2px;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 62px;
+      justify-content: space-evenly;
+      background-color: black;
+    }
+
+    .gallary {
+      /* margin: 5px; */
+      width: 32%;
+    }
+
+    .mimg img {
+      height: 876px;
+    }
+
+    .gallary:hover {
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav id="navbar">
+        <div id="logo">
+          <img src="logo.png" alt="logo Here">
+        </div>
+        <div>
+          <ul class="navigation">
+            <li class="item"> <a href="home.html"> Home</li></a>
+            <li class="item"> <a href="form.html"> Memberships</a></li>
+            <li class="item"> <a href="trainers.html"> Our Trainers</a></li>
+            <li class="item"> <a href="Gallary.html">Gallary</a></li>
+            <li class="item"> <a href="About.html"> About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+  <div class="mimg">
+    <img src="2.jpg" alt="">
+  </div>
+  <div class="row">
+    <img class="gallary" src="g1.jpg" alt="Example image">
+    <img class="gallary" src="g2.jpg" alt="Example image">
+    <img class="gallary" src="g3.jpg" alt="Example image">
+  </div>
+  <div class="row">
+    <img class="gallary" src="g1.jpg" alt="Example image">
+    <img class="gallary" src="g2.jpg" alt="Example image">
+    <img class="gallary" src="g3.jpg" alt="Example image">
+  </div>
+  <div class="row">
+    <img class="gallary" src="g1.jpg" alt="Example image">
+    <img class="gallary" src="g2.jpg" alt="Example image">
+    <img class="gallary" src="g3.jpg" alt="Example image">
+  </div>
+  <hr>
+  <p class="ft center">
+    Thank You For Visiting Us | Designd By - <a href="https://www.instagram.com/bharatgaurr/"> Bharatgaurr</a>
+  </p>
+</body>
+
+</html>

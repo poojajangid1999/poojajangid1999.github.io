@@ -1,0 +1,16 @@
+.site-header {
+ .top-bar{
+		background-color:#102751;	
+		padding-bottom: 10px;
+	}
+	.main-header{
+		display:flex;
+		justify-content: space-between;
+		padding: 10px 0px;	
+	}
+	
+	.top-bar-left ul{
+	margin:auto;
+	padding: 2px 0px;
+}
+ }
