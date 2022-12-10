@@ -1,0 +1,129 @@
+//our-solutions
+.our-solutions{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	.style{
+		position: relative;
+		.our-image{
+			img{
+				width: 90%;
+				height:350px;
+				object-fit: cover;
+			}
+		}
+		.bottom-content{
+			position: absolute;
+			right: 13px;
+			bottom: -20px;
+			.main-box{
+				background-color: $white;
+				box-shadow: 9px 5px 23px 0px #eeebeb;
+				padding: 30px 40px;
+				display: flex;
+				justify-content: space-evenly;
+				.content{
+					line-height: 25px;
+					padding-right: 38px;
+					h5{
+						margin: 0;
+						font-size: 20px;
+						font-weight: 800;
+						width: 181px;
+					}
+				}
+				.icon{
+					display: inline-block;
+					padding: 13px 15px;
+					background-color: $secondary;
+					margin: 11px 0px;
+					border-radius: 59px;
+					i{
+						padding: 6px 6px;
+						color:$white;
+					}
+					&:hover{
+					cursor: pointer;
+						background-color: $primary;
+					}
+				}
+			}
+		}
+	}
+}
+
+//responsive
+@media only screen and (max-width:1024px){
+	.our-solutions{
+		.style{
+			.bottom-content{
+				right: 25px;
+				bottom: -20px;
+				.main-box{
+					padding: 25px 30px;
+					.content{
+						padding-right: 30px;
+						h5{
+							font-size: 18px;
+							width: 167px;
+						}
+					}
+					.icon{
+						padding: 10px 13px;
+						margin: 14px 0px;
+						border-radius: 68px;
+						i{
+							padding: 3px 3px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width:768px){
+	.our-solutions{
+		.style{
+			.bottom-content{
+				right: 14px;
+				bottom: -19px;
+				.main-box{
+					padding: 16px 20px;
+					.content{
+						padding-right: 18px;
+						h5{
+							font-size: 15px;
+							line-height: 20px;
+							width: 146px;
+						}
+					}
+					.icon{
+						padding: 6px 10px;
+						margin: 14px 0px;
+						border-radius: 68px;
+						i{
+							padding: 3px 3px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width:591px){
+	.our-solutions{
+		.col-6{
+			width:100%;
+			margin-bottom: 50px;
+			.style{
+				.our-image{
+					img{
+						height:289px;
+					}
+				}
+				.bottom-content{
+					bottom: -27px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+.logo-slider{
+	padding-top: 60px;
+	.slider-gallery{
+		.logo-images{
+			img{
+				width: 170px;
+			}
+		}
+	}
+}

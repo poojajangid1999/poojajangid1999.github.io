@@ -1,0 +1,183 @@
+.client-section{
+	padding-top: 70px;
+	padding-bottom: 30px;
+	.section-head{
+		padding-bottom: 90px;
+		margin: auto;
+		.title{
+			text-align: center;
+			.first-heading{
+				padding-bottom: 5px;
+				h5{
+					color: $other;
+					margin: 0;
+					font-size: 17px;
+				}
+			}
+			.second-heading{
+				h2{
+					margin: 0;
+					font-weight: 800;
+					width: 658px;
+					line-height: 50px;
+				}
+			}
+		}
+	}
+	.services{
+		.style1{
+		background-color: white;
+		box-shadow: 1px 4px 9px 5px #eeebeb;
+		padding: 40px 102px;
+		.icon{
+			padding-top: 10px;
+			padding-bottom: 10px;
+			text-align: center;
+			i{
+				font-size: 46px;
+				color:$primary;
+			}
+		}
+		.title{
+			h5{			
+				font-weight: 800;
+				margin: 0;
+				text-align: center;
+				line-height: 25px;
+			}
+		}
+			&:hover{
+				background-color: #1e1729;
+				color:$white;
+				.icon{
+					i{
+						font-size: 46px;
+						color:#8b6ce4;
+					}
+				}
+			}
+		}
+	}
+	hr{
+		margin-top: 50px;
+	}
+}
+
+//responsive
+@media only screen and (max-width:1024px){
+	.client-section{
+		.section-head{
+			.title{
+				.first-heading{
+					h5{
+						font-size: 16px;
+					}
+				}
+				.second-heading{
+					h2{
+						font-size: 35px;
+						width: 614px;
+					}
+				}
+			}
+		}
+		.services{
+			.style1{
+				.icon{
+					i{
+						font-size: 38px;
+					}
+					.title{
+						h5{
+							font-size:18px;
+						}
+					}
+				}	
+			}
+			hr{
+				margin-top: 50px;
+			}
+		}	
+	}
+}
+@media only screen and (max-width:768px){
+	.client-section{
+		.section-head{
+			.title{
+				.first-heading{
+					h5{
+						font-size: 16px;
+					}
+				}
+				.second-heading{
+					h2{
+						font-size: 30px;
+						width: 524px;
+						line-height:44px;
+					}
+				}
+			}
+		}
+		.services{
+			.style1{
+				padding: 40px 55px;
+				.icon{
+					i{
+						font-size: 35px;
+					}
+					.title{
+						h5{
+							font-size:18px;
+							line-height: 23px;
+						}
+					}
+				}	
+			}
+			hr{
+				margin-top: 50px;
+			}
+		}	
+	}
+}
+@media only screen and (max-width:591px){
+	.client-section{
+		padding-top: 135px;
+		.section-head{
+			padding-bottom: 80px;
+			.title{
+				.first-heading{
+					h5{
+						font-size: 14px;
+					}
+				}
+				.second-heading{
+					h2{
+						font-size: 25px;
+						width: 357px;
+						line-height: 39px;
+					}
+				}
+			}
+		}
+		.services{
+			.style1{
+				padding: 38px 80px;
+				.icon{
+					i{
+						font-size: 35px;
+					}
+					.title{
+						h5{
+							font-size:18px;
+							line-height: 23px;
+						}
+					}
+				}	
+			}
+			hr{
+				margin-top: 50px;
+			}
+		}	
+	}
+
+}
